@@ -14,10 +14,18 @@ body
     font-size: 17px;
     line-height: 1.4;
     margin: 0;
+
+    background-color: #f1f1ee;
+}
+
+.index-body
+{
+/*
     background-image: url("../img/background.jpg");
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
+*/
 }
 
 h1, h2, h3, h4, h5, h6, nav
@@ -38,48 +46,43 @@ nav ul
     margin: 0;
 }
 
-/* layout */
 .container
 {
     overflow: hidden;
     padding: 0 20px;
-/*    max-width: 980px;*/
-}
-
-.text
-{
-  max-width: 40em;
 }
 
 .site-header
 {
-/*    border-bottom: 1px solid #000;*/
     padding: 30px 0px;
     padding-bottom: 20px;
+/*    background-color: #242526;*/
 }
 
-.site-content
+main
 {
     padding: 28px 0;
     height: 100%;
     min-height: 100%;
+
+}
+
+a
+{
+    text-decoration: none;
 }
 
 .site-footer
 {
-/*    border-top: 1px solid #000;*/
     position: fixed;
     bottom: 0;
     width: 100%;
-/*    background-color: #FFF;*/
     padding: 20px 0px;
 }
 
 .logo
 {
     float: left;
-    text-decoration: none;
-    color: #f5f2f9;
 }
 
 .main-nav
@@ -95,7 +98,7 @@ nav ul
 .main-nav a
 {
     text-decoration: none;
-    color: #f5f2f9;
+    color: #242526;
     display: block;
     padding: 0px 20px;
 }
@@ -119,9 +122,9 @@ nav ul
 {
     text-decoration: none;
     color: #f5f2f9;
+    color: #242526;
     display: block;
     padding: 0px 10px;
-    border-right: 1px solid #f5f2f9;
 }
 
 .footer-links a:hover
@@ -131,7 +134,7 @@ nav ul
 
 .footer-copyrights
 {
-    color: #f5f2f9;
+    color: #242526;
 }
 
 .main-content
@@ -150,25 +153,83 @@ nav ul
 {
     font-size: 30px;
     margin: 0px;
-    color: #f5f2f9;
-}
-/*
-
-.alignright
-{
-  float: right;
-  margin-left: 14px;
+    color: #242526;
 }
 
-.visuallyhidden
+/*PROJECTS*/
+
+.center-div
 {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+    margin: 15px 100px;
+    text-align: center;
 }
+
+.project-img
+{
+    float: left;
+    margin-right: 50px;
+}
+
+.project-div
+{
+    overflow: auto;
+    text-align: left;
+    margin: 100px 0;
+}
+
+.project-div p
+{
+    padding: 100px 0;
+    vertical-align: middle;
+}
+
+.all-projects
+{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
