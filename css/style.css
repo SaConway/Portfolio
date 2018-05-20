@@ -2,11 +2,6 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400|Work+Sans:400,500,600');
 
-html
-{
-    height: 100%;
-}
-
 body
 {
     font-weight: 400;
@@ -14,18 +9,7 @@ body
     font-size: 17px;
     line-height: 1.4;
     margin: 0;
-
     background-color: #f1f1ee;
-}
-
-.index-body
-{
-/*
-    background-image: url("../img/background.jpg");
-    background-position:center;
-    background-size: cover;
-    background-repeat: no-repeat;
-*/
 }
 
 h1, h2, h3, h4, h5, h6, nav
@@ -35,8 +19,20 @@ h1, h2, h3, h4, h5, h6, nav
 
 h1
 {
-    color: #3d777c;
+    color: #f89939;
     margin: 0;
+}
+
+p
+{
+    text-align: left;
+}
+
+hr
+{
+    background-color: #242526;
+    height: 1px;
+    width: 70px;
 }
 
 nav ul
@@ -46,25 +42,11 @@ nav ul
     margin: 0;
 }
 
-.container
-{
-    overflow: hidden;
-    padding: 0 20px;
-}
-
-.site-header
-{
-    padding: 30px 0px;
-    padding-bottom: 20px;
-/*    background-color: #242526;*/
-}
-
 main
 {
     padding: 28px 0;
     height: 100%;
     min-height: 100%;
-
 }
 
 a
@@ -72,12 +54,31 @@ a
     text-decoration: none;
 }
 
-.site-footer
+a:hover
 {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 20px 0px;
+    color: #000;
+}
+
+.container
+{
+    max-width: 980px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/***************************/
+
+/*HEADER*/
+
+.site-header
+{
+    padding: 30px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #242526;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .logo
@@ -97,15 +98,23 @@ a
 
 .main-nav a
 {
-    text-decoration: none;
     color: #242526;
-    display: block;
     padding: 0px 20px;
 }
 
-.main-nav a:hover
+/*END HEADER*/
+
+/***************************/
+
+
+/*FOOTER*/
+
+.site-footer
 {
-    color: #fff;
+    padding: 20px 0px;
+    border-top: 1px solid #242526;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .footer-links
@@ -120,49 +129,40 @@ a
 
 .footer-links a
 {
-    text-decoration: none;
-    color: #f5f2f9;
     color: #242526;
-    display: block;
     padding: 0px 10px;
-}
-
-.footer-links a:hover
-{
-    color: #fff;
 }
 
 .footer-copyrights
 {
+    float: left;
     color: #242526;
 }
 
-.main-content
+/*END FOOTER*/
+
+/***************************/
+
+/*HOME*/
+
+.home-text
 {
-    margin: 100px;
+    font-size: 50px;
+    color: #242526;
 }
 
 .sagee-conway
 {
-    font-size: 60px;
+    font-size: 50px;
     margin: 0px;
     color: #f89939;
 }
 
-.computer-science
-{
-    font-size: 30px;
-    margin: 0px;
-    color: #242526;
-}
+/*END HOME*/
+
+/***************************/
 
 /*PROJECTS*/
-
-.center-div
-{
-    margin: 15px 100px;
-    text-align: center;
-}
 
 .project-img
 {
@@ -172,64 +172,13 @@ a
 
 .project-div
 {
-    overflow: auto;
-    text-align: left;
-    margin: 100px 0;
+    margin: 60px 0;
 }
 
 .project-div p
 {
     padding: 100px 0;
-    vertical-align: middle;
 }
 
-.all-projects
-{
-    margin-top: 100px;
-}
+/*END PROJECTS*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
