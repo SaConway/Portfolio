@@ -251,18 +251,19 @@ a:hover .fa
     letter-spacing: 0.5px;
     padding: 5px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .column {
     float: left;
     width: 50%;
-    padding: 25px;
+    padding: 30px;
 }
 
 .row
 {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -280,7 +281,7 @@ a:hover .fa
 .about-img
 {
     float: left;
-    margin: 20px;
+    padding-right: 15px;
 }
 
 /*END ABOUT*/
@@ -289,3 +290,15 @@ a:hover .fa
 
 
 
+.email-div {
+    margin-top: 30px;
+    float: left;
+}
+
+.email-i {
+    padding-right: 10px;
+}
+
+.email-link {
+    color: #0366d6;
+}
