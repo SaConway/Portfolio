@@ -2,6 +2,11 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400|Work+Sans:400,500,600');
 
+html
+{
+    height: 100%;
+}
+
 body
 {
     font-weight: 400;
@@ -10,6 +15,10 @@ body
     line-height: 1.4;
     margin: 0;
     background-color: #f1f1ee;
+
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6, nav
@@ -23,16 +32,23 @@ h1
     margin: 0;
 }
 
+h2
+{
+    color: #242526;
+}
+
 p
 {
     text-align: left;
 }
 
-hr
+.h1-line
 {
-    background-color: #242526;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    border: 0;
     height: 1px;
     width: 70px;
+    margin-bottom: 40px;
 }
 
 nav ul
@@ -42,21 +58,21 @@ nav ul
     margin: 0;
 }
 
+*
+{
+    box-sizing: border-box;
+}
+
 main
 {
     padding: 28px 0;
-    height: 100%;
     min-height: 100%;
+    flex-shrink: 0;
 }
 
 a
 {
     text-decoration: none;
-}
-
-a:hover
-{
-    color: #000;
 }
 
 .container
@@ -68,6 +84,13 @@ a:hover
     text-align: center;
 }
 
+.seperator
+{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 /***************************/
 
 /*HEADER*/
@@ -76,7 +99,6 @@ a:hover
 {
     padding: 30px 0px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #242526;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -89,6 +111,7 @@ a:hover
 .main-nav
 {
     float: right;
+    padding-top: 15px;
 }
 
 .main-nav li
@@ -102,6 +125,11 @@ a:hover
     padding: 0px 20px;
 }
 
+.current a
+{
+    color: #478ac8;
+}
+
 /*END HEADER*/
 
 /***************************/
@@ -112,9 +140,10 @@ a:hover
 .site-footer
 {
     padding: 20px 0px;
-    border-top: 1px solid #242526;
     margin-left: 50px;
     margin-right: 50px;
+
+    flex-shrink: 0;
 }
 
 .footer-links
@@ -139,6 +168,23 @@ a:hover
     color: #242526;
 }
 
+.visuallyhidden
+{
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+a:hover .fa
+{
+  color: #000;
+}
+
 /*END FOOTER*/
 
 /***************************/
@@ -147,13 +193,15 @@ a:hover
 
 .home-text
 {
-    font-size: 50px;
+    font-size: 40px;
     color: #242526;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .sagee-conway
 {
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px;
     color: #f89939;
 }
@@ -166,13 +214,12 @@ a:hover
 
 .project-img
 {
-    float: left;
-    margin-right: 50px;
+    width: 100%;
 }
 
 .project-div
 {
-    margin: 60px 0;
+    margin: 40px 0;
 }
 
 .project-div p
@@ -180,5 +227,65 @@ a:hover
     padding: 100px 0;
 }
 
+.img-wrap img
+{
+    transition: opacity 0.3s ease;
+}
+
+.img-wrap img:hover
+{
+    opacity: 0.8;
+}
+
+.h2-projects
+{
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    border: 3px solid #478ac8;
+    background: #478ac8;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    color: #fff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+
+.row
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+
 /*END PROJECTS*/
+
+/***************************/
+
+/*ABOUT*/
+
+.about-main-div
+{
+    margin: 40px 0;
+}
+
+.about-img
+{
+    float: left;
+    margin: 20px;
+}
+
+/*END ABOUT*/
+
+
+
+
 
