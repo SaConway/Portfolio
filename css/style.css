@@ -5,6 +5,7 @@
 html
 {
     height: 100%;
+    background: #f1f1ee;
 }
 
 body
@@ -14,11 +15,9 @@ body
     font-size: 17px;
     line-height: 1.4;
     margin: 0;
-    background-color: #f1f1ee;
-
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6, nav
@@ -35,11 +34,6 @@ h1
 h2
 {
     color: #242526;
-}
-
-p
-{
-    text-align: left;
 }
 
 .h1-line
@@ -142,7 +136,6 @@ a
     padding: 20px 0px;
     margin-left: 50px;
     margin-right: 50px;
-
     flex-shrink: 0;
 }
 
@@ -242,7 +235,8 @@ a:hover .fa
     margin-top: 10px;
 }
 
-.btn {
+.btn
+{
     display: inline-block;
     cursor: pointer;
     border: 3px solid #478ac8;
@@ -266,6 +260,10 @@ a:hover .fa
     margin-top: 20px;
 }
 
+.project-p
+{
+    text-align: center;
+}
 
 /*END PROJECTS*/
 
@@ -276,6 +274,7 @@ a:hover .fa
 .about-main-div
 {
     margin: 40px 0;
+    max-width: 50em;
 }
 
 .about-img
@@ -284,21 +283,28 @@ a:hover .fa
     padding-right: 15px;
 }
 
-/*END ABOUT*/
-
-
-
-
-
-.email-div {
+.email-div
+{
     margin-top: 30px;
     float: left;
 }
 
-.email-i {
+.email-i
+{
     padding-right: 10px;
 }
 
-.email-link {
+.email-link
+{
     color: #0366d6;
 }
+
+.about-p
+{
+    text-align: left;
+}
+
+/*END ABOUT*/
+
+
+
