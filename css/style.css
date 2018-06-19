@@ -93,18 +93,10 @@ a
 {
     padding: 30px 0px;
     padding-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.logo
-{
-    float: left;
 }
 
 .main-nav
 {
-    float: right;
     padding-top: 15px;
 }
 
@@ -141,7 +133,7 @@ a
 
 .footer-links
 {
-    float: right
+    padding-right: 30px;
 }
 
 .footer-links li
@@ -157,7 +149,6 @@ a
 
 .footer-copyrights
 {
-    float: left;
     color: #242526;
 }
 
@@ -199,6 +190,15 @@ a:hover .fa
     color: #f89939;
 }
 
+.home-container
+{
+    max-width: 980px;
+    margin: auto;
+    overflow: hidden;
+    float: none;
+    text-align: center;
+}
+
 /*END HOME*/
 
 /***************************/
@@ -230,7 +230,7 @@ a:hover .fa
     opacity: 0.8;
 }
 
-.h2-projects
+.my-h2
 {
     margin-top: 10px;
 }
@@ -274,13 +274,13 @@ a:hover .fa
 .about-main-div
 {
     margin: 40px 0;
-    max-width: 50em;
+    margin-left: 50px;
 }
 
 .about-img
-{
-    float: left;
-    padding-right: 15px;
+    {
+    float: right;
+    padding-left: 15px;
 }
 
 .email-div
@@ -306,5 +306,21 @@ a:hover .fa
 
 /*END ABOUT*/
 
+/***************************/
 
+/*CONTACT ME*/
+
+
+.div-message
+{
+    background-color: #b3d4fd;
+    width: 800px;
+    height: 200px;
+    margin: inherit;
+    margin-bottom: 3px;
+    text-align: center;
+    float: none;
+}
+
+/*END CONTACT ME*/
 
