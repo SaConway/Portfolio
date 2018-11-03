@@ -6,6 +6,8 @@ html
 {
     height: 100%;
     background: #f1f1ee;
+    margin: 0;
+    padding: 0;
 }
 
 body
@@ -15,8 +17,9 @@ body
     font-size: 17px;
     line-height: 1.4;
     margin: 0;
+    padding: 0;
     display: flex;
-    height: 100vh;
+    min-height: 100%;
     flex-direction: column;
 }
 
@@ -61,11 +64,17 @@ main
 {
     padding: 28px 0;
     flex: 1 0 auto;
+    height: 100%;
 }
 
 a
 {
     text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 .container
@@ -75,6 +84,8 @@ a
     overflow: hidden;
     padding: 0 20px;
     text-align: center;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .seperator
@@ -345,3 +356,87 @@ a:hover .fa
 
 
 
+
+#first-row {
+    background-color: #B3D4FC;
+    font-size: 25px;
+    width: 99%;
+    margin: auto;
+    margin-bottom: 3px;
+}
+
+#first-row p{
+    padding: 60px 10px;
+    margin: 0;
+}
+
+#sagee-conway {
+    color: #f89939;
+}
+
+#left-col {
+    background-color: #BFABAA;
+    margin-right: 1px;
+    width: 49%;
+    color: #000000;
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    min-width: 461px;
+}
+
+#left-col p{
+    padding: 30px 10px;
+    margin: 0;
+}
+
+#left-col img{
+    padding-top: 30px;
+}
+
+#right-col {
+    background-color: #FFFFFF;
+    display: inline-block;
+    *display: inline;
+    width: 49%;
+    margin-left: 1px;
+    color: #000000;
+    vertical-align: top;
+    min-width: 461px;
+}
+
+#right-col p{
+    padding: 30px 10px;
+    margin: 0;
+}
+
+#right-col img{
+    padding-bottom: 30px;
+}
+
+#second-row {
+    font-size: 20px;
+    color: #000000;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    clear: both;
+    margin-top: 3px;
+}
+
+@media only screen and (max-width: 600px){
+    #first-row{
+        width: 80%;
+        margin: auto;
+    }
+    #left-col{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    #right-col{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}
