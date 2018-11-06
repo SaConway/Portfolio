@@ -323,8 +323,7 @@ a:hover .fa
     transition: opacity 0.3s ease;
 }
 
-.img-wrap img:hover
-{
+.img-wrap img:hover {
     opacity: 0.8;
 }
 
