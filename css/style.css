@@ -187,40 +187,110 @@ a:hover .fa
 
 /*HOME*/
 
-.home-text
-{
-    font-size: 40px;
-    color: #242526;
-    text-align: center;
-    padding-top: 100px;
+#first-row {
+    background-color: #B3D4FC;
+    font-size: 20px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 3px;
+    min-width: 461px;
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
 }
 
-.sagee-conway
-{
-    font-size: 40px;
-    margin: 0px;
+#first-row p{
+    padding: 60px 10px;
+    margin: auto;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+#sagee-conway {
     color: #f89939;
 }
 
-.home-container
-{
-    max-width: 980px;
+#left-col {
+    background-color: #BFABAA;
+    margin-right: 1px;
+    width: 49.5%;
+    color: #000000;
+    display: inline-block;
+    *display: inline;
+    vertical-align: top;
+    min-width: 461px;
+}
+
+#left-col p, #right-col p{
+    padding: 30px 10px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+#left-col img{
+    padding-top: 30px;
+}
+
+#right-col {
+    background-color: #FFFFFF;
+    display: inline-block;
+    *display: inline;
+    width: 49.5%;
+    margin-left: 1px;
+    color: #000000;
+    vertical-align: top;
+    min-width: 461px;
+}
+
+#right-col img{
+    padding-bottom: 30px;
+}
+
+#second-row {
+    font-size: 20px;
+    color: #000000;
+    width: 100%;
     margin: auto;
-    overflow: hidden;
-    float: none;
-    text-align: center;
+    padding: 0;
+    margin-top: 3px;
 }
 
-.introImg {
-    max-width: 100%;
+@media only screen and (max-width: 985px){
+    #first-row{
+        width: 100%;
+        min-height: 224.4px;
+        display: table;
+        min-width: inherit;
+        max-width: 461px;
+        margin-bottom: 20px;
+    }
+    #first-row p{
+          text-align:center;
+          vertical-align: middle;
+          display: table-cell;
+    }
+    #left-col{
+        margin-bottom: 20px;
+    }
 }
 
-.ProImg {
-    max-width: 100%;
-}
-
-.aboutImg {
-    max-width: 100%;
+@media only screen and (max-width: 600px){
+    #first-row{
+        width: 87%;
+    }
+    #left-col{
+        display: block;
+        width: 87%;
+        margin: auto;
+        margin-bottom: 20px;
+        min-width: inherit;
+    }
+    #right-col{
+        display: block;
+        width: 87%;
+        margin: auto;
+        min-width: inherit;
+    }
 }
 
 /*END HOME*/
@@ -357,86 +427,4 @@ a:hover .fa
 
 
 
-#first-row {
-    background-color: #B3D4FC;
-    font-size: 25px;
-    width: 99%;
-    margin: auto;
-    margin-bottom: 3px;
-}
 
-#first-row p{
-    padding: 60px 10px;
-    margin: 0;
-}
-
-#sagee-conway {
-    color: #f89939;
-}
-
-#left-col {
-    background-color: #BFABAA;
-    margin-right: 1px;
-    width: 49%;
-    color: #000000;
-    display: inline-block;
-    *display: inline;
-    vertical-align: top;
-    min-width: 461px;
-}
-
-#left-col p{
-    padding: 30px 10px;
-    margin: 0;
-}
-
-#left-col img{
-    padding-top: 30px;
-}
-
-#right-col {
-    background-color: #FFFFFF;
-    display: inline-block;
-    *display: inline;
-    width: 49%;
-    margin-left: 1px;
-    color: #000000;
-    vertical-align: top;
-    min-width: 461px;
-}
-
-#right-col p{
-    padding: 30px 10px;
-    margin: 0;
-}
-
-#right-col img{
-    padding-bottom: 30px;
-}
-
-#second-row {
-    font-size: 20px;
-    color: #000000;
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    clear: both;
-    margin-top: 3px;
-}
-
-@media only screen and (max-width: 600px){
-    #first-row{
-        width: 80%;
-        margin: auto;
-    }
-    #left-col{
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
-    #right-col{
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
-}
