@@ -189,21 +189,22 @@ a:hover .fa
 
 #first-row {
     background-color: #B3D4FC;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
     margin: auto;
+    padding: 80px;
     margin-bottom: 3px;
     min-width: 461px;
     align-content: center;
     align-items: center;
     vertical-align: middle;
+    letter-spacing: 1.5px;
 }
 
 #first-row p{
-    padding: 60px 10px;
-    margin: auto;
-    letter-spacing: 2px;
-    vertical-align: middle;
+    font-size: 23px;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 #sagee-conway {
@@ -387,46 +388,6 @@ a:hover .fa
 }
 
 /*END PROJECTS*/
-
-/***************************/
-
-/*ABOUT*/
-
-.about-main-div
-{
-    margin: 40px 0;
-/*    margin-left: 50px;*/
-}
-
-.about-img
-    {
-    float: left;
-    padding-right: 15px;
-    max-width: 100%;
-}
-
-.email-div
-{
-    margin-top: 30px;
-    float: left;
-}
-
-.email-i
-{
-    padding-right: 10px;
-}
-
-.email-link
-{
-    color: #0366d6;
-}
-
-.about-p
-{
-    text-align: left;
-}
-
-/*END ABOUT*/
 
 /***************************/
 
