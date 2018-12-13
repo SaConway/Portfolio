@@ -268,11 +268,11 @@ a:hover .fa
         min-width: inherit;
         max-width: 461px;
         margin-bottom: 20px;
+        padding: 40px;
     }
     #first-row p{
           text-align:center;
           vertical-align: middle;
-          display: table-cell;
     }
     #left-col{
         margin-bottom: 20px;
@@ -282,6 +282,7 @@ a:hover .fa
 @media only screen and (max-width: 600px){
     #first-row{
         width: 87%;
+        padding: 20px;
     }
     #left-col{
         display: block;
