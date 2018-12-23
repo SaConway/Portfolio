@@ -21,6 +21,7 @@ body
     display: flex;
     min-height: 100%;
     flex-direction: column;
+    color: #242526;
 }
 
 h1, h2, h3, h4, h5, h6, nav
@@ -204,7 +205,7 @@ a:hover .fa
     width: 100%;
     margin: auto;
     padding: 80px;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     min-width: 461px;
     align-content: center;
     align-items: center;
@@ -248,7 +249,7 @@ a:hover .fa
 }
 
 #right-col {
-    background-color: #FFFFFF;
+    background-color: #ffd855;
     display: inline-block;
     *display: inline;
     width: 49.5%;
@@ -408,35 +409,26 @@ a:hover .fa
 
 /*CONTACT ME*/
 
-.contact{
+.contact-main span{
+    font-size: 80px;
+}
+
+.contact-info {
     display: inline-block;
-    margin: 0 70px;
+    font-size: 20px;
+    text-align: left;
 }
 
-p.contact-info{
-    margin-top: 0;
-    padding-top: 0;
-    font-weight: 800;
-    letter-spacing: 2px;
-    font-size: 18px;
-    color: #242526;
-}
-
-@media only screen and (max-width: 700px){
-    .contact{
-        display: block;
-        margin: 50px;
+@media only screen and (max-width: 600px){
+    .contact-main span{
+        font-size: 60px;
     }
 
-    p.contact-info{
-        letter-spacing: 1.5px;
+    .contact-info {
         font-size: 16px;
     }
 }
 
 /*END CONTACT ME*/
-
-
-
 
 
